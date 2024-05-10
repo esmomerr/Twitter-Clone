@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Twitter Log-in</title>
+    <link rel="stylesheet" href="assets/CSS/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="login-register">
+            <form class="form logIn">
+                <span class="title">Log-in</span>
+    
+                <!-- <label for="username" class="label">Username</label>
+                <input type="text" id="username" name="username" class="input"> -->
+                
+                <label for="username" class="label">Email</label>
+                <input type="email" id="email" name="email" class="input">
+
+                <label for="password" class="label">Password</label>
+                <input type="password" id="password" name="password" required="" class="input">
+    
+                <button type="submit" class="submit">Log-in</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="https://unpkg.com/@supabase/supabase-js@2"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="assets/Javascript/script.js"></script>
+    <script src="assets/Javascript/loggedin.js"></script>
+</body>
+</html>

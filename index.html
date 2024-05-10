@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Twitter</title>
+    <link rel="stylesheet" href="assets/CSS/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&family=Lugrasimo&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+
+
+        <div class="addTheComment">
+            <a href="#" class="signOutBtn btn">Çıkış Yap <img src="assets/img/signout.svg" alt="" class="icon"></a>
+            <form class="input-div">
+                <div class="user">
+                    <input type="text" name="comment" class="inpt comment_text" placeholder="Post At">
+                </div>
+                <button type="submit" class="submit btn">Gönder</button>
+            </form>
+        </div>
+
+
+        <div class="comments-reply">
+            <div class="commentss">
+                <div class="comment-container" data-commentid = "">
+                    <div class="post-container">
+                        
+                    </div>
+
+                    <div class="replies-container">
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+        <!-- <div class="addTheComment">
+                <form class="post">
+                    <div class="user">
+                        <input type="text" name="post" class="inpt comment_text" placeholder="Cevap Yaz">
+                    </div>
+                    <button type="submit" class="submit">Gönder</button>
+                </form>
+        </div> -->
+    </div>
+
+    <script src="https://unpkg.com/@supabase/supabase-js@2"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script> -->
+    <script src="assets/Javascript/script.js"></script>
+</body>
+</html>
